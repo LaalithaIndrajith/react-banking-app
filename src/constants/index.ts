@@ -13,7 +13,7 @@ import {
   send,
   shield,
   star,
-} from "../index";
+} from "../assets";
 
 //Type for Navlink
 type Navlink = {
@@ -70,7 +70,7 @@ type Client = {
   logo: string;
 };
 
-const navlinks: Navlink[] = [
+export const navlinks: Navlink[] = [
   {
     id: "home",
     title: "Home",
@@ -89,7 +89,7 @@ const navlinks: Navlink[] = [
   },
 ];
 
-const features: Feature[] = [
+export const features: Feature[] = [
   {
     id: "feature-1",
     icon: star,
@@ -113,7 +113,7 @@ const features: Feature[] = [
   },
 ];
 
-const feedback: Feedback[] = [
+export const feedback: Feedback[] = [
   {
     id: "feedback-1",
     content:
@@ -140,7 +140,7 @@ const feedback: Feedback[] = [
   },
 ];
 
-const stats: Stat[] = [
+export const stats: Stat[] = [
   {
     id: "stats-1",
     title: "User Active",
@@ -158,7 +158,7 @@ const stats: Stat[] = [
   },
 ];
 
-const footerLinks: FooterLink[] = [
+export const footerLinks: FooterLink[] = [
   {
     title: "Useful Links",
     links: [
@@ -224,7 +224,7 @@ const footerLinks: FooterLink[] = [
   },
 ];
 
-const socialMedia: SocialMedia[] = [
+export const socialMedia: SocialMedia[] = [
   {
     id: "social-media-1",
     icon: instagram,
@@ -247,7 +247,7 @@ const socialMedia: SocialMedia[] = [
   },
 ];
 
-const clients: Client[] = [
+export const clients: Client[] = [
   {
     id: "client-1",
     logo: airbnb,
