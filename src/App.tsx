@@ -25,6 +25,11 @@ export const App = () => {
           <Hero />
         </div>
       </div>
+      <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
+        <div className={`${styles.boxWidth}`}>
+          <Stats />
+        </div>
+      </div>
     </div>
   );
 };
