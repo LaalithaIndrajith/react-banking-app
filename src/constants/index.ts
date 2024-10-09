@@ -74,6 +74,10 @@ export const homeParagText: string = `Our team of experts uses a methodology to 
           most likely to fit your needs. We examine annual percentage rates,
           annual fees.`;
 
+export const businessParagText: string = `With the right credit card, you can improve your financial life by
+          building credit, earning rewards and saving money. But with hundreds
+          of credit cards on the market.`;
+
 export const navlinks: Navlink[] = [
   {
     id: "home",
