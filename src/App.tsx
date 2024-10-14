@@ -29,6 +29,8 @@ export const App = () => {
         <div className={`${styles.boxWidth}`}>
           <Stats />
           <Business />
+          <Billing />
+          <CardDeal />
         </div>
       </div>
     </div>
